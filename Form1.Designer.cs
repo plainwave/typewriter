@@ -53,9 +53,9 @@
             button1.Font = new Font("Segoe UI Semibold", 13F, FontStyle.Bold);
             button1.Location = new Point(2, 364);
             button1.Name = "button1";
-            button1.Size = new Size(630, 59);
+            button1.Size = new Size(632, 59);
             button1.TabIndex = 1;
-            button1.Text = "Type for me!";
+            button1.Text = "Вводи за меня!";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -63,44 +63,44 @@
             // 
             checkBox1.AutoSize = true;
             checkBox1.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            checkBox1.Location = new Point(60, 430);
+            checkBox1.Location = new Point(32, 430);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(127, 29);
+            checkBox1.Size = new Size(202, 29);
             checkBox1.TabIndex = 2;
-            checkBox1.Text = "Slow mode";
+            checkBox1.Text = "Медленный режим";
             checkBox1.UseVisualStyleBackColor = true;
             // 
             // checkBox2
             // 
             checkBox2.AutoSize = true;
             checkBox2.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            checkBox2.Location = new Point(291, 430);
+            checkBox2.Location = new Point(256, 430);
             checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(180, 29);
+            checkBox2.Size = new Size(293, 29);
             checkBox2.TabIndex = 3;
-            checkBox2.Text = "End with \"ENTER\"";
+            checkBox2.Text = "Заканчивать клавишей \"Ввод\"";
             checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox3
             // 
             checkBox3.AutoSize = true;
             checkBox3.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            checkBox3.Location = new Point(572, 430);
+            checkBox3.Location = new Point(587, 430);
             checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(152, 29);
+            checkBox3.Size = new Size(187, 29);
             checkBox3.TabIndex = 4;
-            checkBox3.Text = "Always on top";
+            checkBox3.Text = "Поверх всех окон";
             checkBox3.UseVisualStyleBackColor = true;
             checkBox3.CheckedChanged += checkBox3_CheckedChanged;
             // 
             // button2
             // 
             button2.Font = new Font("Segoe UI Semibold", 13F, FontStyle.Bold);
-            button2.Location = new Point(629, 364);
+            button2.Location = new Point(631, 364);
             button2.Name = "button2";
-            button2.Size = new Size(169, 59);
+            button2.Size = new Size(167, 59);
             button2.TabIndex = 5;
-            button2.Text = "Clear";
+            button2.Text = "Очистить";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
@@ -121,7 +121,7 @@
             MaximizeBox = false;
             Name = "typewriter";
             Opacity = 0.94D;
-            Text = "typewriter | *Characters input depends on current keyboard layout";
+            Text = "машинистка | *Ввод и вывод символов зависит от текущей раскладки клавиатуры";
             ResumeLayout(false);
             PerformLayout();
         }

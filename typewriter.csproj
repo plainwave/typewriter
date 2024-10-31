@@ -11,10 +11,7 @@
     <Description>released by Anton V. 6/2024 as freeware</Description>
     <Copyright>free</Copyright>
     <PackageIcon>Iconblock-Remixed-Typewriter.256.png</PackageIcon>
-	  <UseWPF>true</UseWPF>
-	  <PublishSingleFile>true</PublishSingleFile>
-	  <IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
-	  <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+	
   </PropertyGroup>
 
   <ItemGroup>

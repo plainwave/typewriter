@@ -41,13 +41,13 @@ namespace typewriter
                     if (checkBox1.Checked) // ћедленный режим
                     {
                         // Ёкранируем проблемные знаки
-                        string txt = Regex.Replace(c.ToString(), "[+^%~()]", "{$0}");
+                        string txt = Regex.Replace(c.ToString(), "[+^%~(){}]", "{$0}");
                         SendKeys.SendWait(txt);
                         Thread.Sleep(100); // 100 миллисекунд между символами, если чекбокс включен
                     }
                     else
                     {
-                        string txt = Regex.Replace(c.ToString(), "[+^%~()]", "{$0}");
+                        string txt = Regex.Replace(c.ToString(), "[+^%~(){}]", "{$0}");
                         SendKeys.SendWait(txt);
                     }
                 }
